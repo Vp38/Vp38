@@ -1,0 +1,22 @@
+#include <iostream>
+using namespace std;
+
+
+int main(){
+	int t;
+	std::cin>>t;
+	while(t--){
+		double N,M;
+		cin>>N>>M;
+		if(N>0)
+		std::cout<<N*M <<std::endl;
+		else
+		cout<<N<<endl;
+		
+		
+		
+	
+	}
+	return 0;
+	
+}
