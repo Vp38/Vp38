@@ -1,0 +1,23 @@
+#include <iostream>
+#include<string.h>
+using namespace std;
+
+int main() {
+	int t = 0;
+	cin>>t;
+	while(t--)
+	{
+	    int count;
+	    int count_START38 = 0;
+	    cin>>count;
+	    string arr[count];
+	    for(int i = 0;i<count;i++)
+	    {
+	        cin>>arr[i];
+	        if(arr[i]=="START38")
+	        count_START38 += 1;
+	    }
+	    cout<<count_START38<<" "<<count - count_START38<<endl;
+	}
+	return 0;
+}
