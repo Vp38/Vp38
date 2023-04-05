@@ -1,0 +1,28 @@
+// melt gold ore at a tempereture 
+// STATERS 84
+
+
+
+
+#include <iostream>
+using namespace std;
+
+int main() {
+    int cases;
+    cin>>cases;
+    while (cases--){
+        int x,y;
+        cin>>x>>y;
+        int count=1,ans=0;
+        while(y<x){
+            ans++;
+            y+=count ;
+            count ++;
+        }
+        cout <<ans <<endl;
+        }
+      //  cout <<count <<endl;
+    
+	
+	return 0;
+}
